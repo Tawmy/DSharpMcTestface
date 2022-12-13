@@ -1,5 +1,6 @@
 using DSharpMcTestface.Helpers;
 using DSharpMcTestface.Interfaces;
+using DSharpMcTestface.Modules;
 using DSharpPlus;
 using DSharpPlus.EventArgs;
 using DSharpPlus.SlashCommands;
@@ -32,7 +33,8 @@ public class Bot : IBot
 
     private void RegisterCommands()
     {
-        Client.UseSlashCommands();
+        var commands = Client.UseSlashCommands();
+        commands.RegisterCommands<SlashCleanup>(1052284702574256128);
     }
 
     private async Task ClientOnGuildDownloadCompletedAsync(DiscordClient sender, GuildDownloadCompletedEventArgs e)
