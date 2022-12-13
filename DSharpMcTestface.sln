@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSharpMcTestface", "DSharpMcTestface\DSharpMcTestface.csproj", "{07C6BF62-1D6F-4078-A6F2-41D21000C3B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSharpPlus", "DSharpPlus\DSharpPlus\DSharpPlus.csproj", "{ED11A119-A18E-4D7B-9DF6-20A55F1AE474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSharpPlus.SlashCommands", "DSharpPlus\DSharpPlus.SlashCommands\DSharpPlus.SlashCommands.csproj", "{206E3A84-0B11-43BB-A533-420D010C845A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{07C6BF62-1D6F-4078-A6F2-41D21000C3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C6BF62-1D6F-4078-A6F2-41D21000C3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C6BF62-1D6F-4078-A6F2-41D21000C3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED11A119-A18E-4D7B-9DF6-20A55F1AE474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED11A119-A18E-4D7B-9DF6-20A55F1AE474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED11A119-A18E-4D7B-9DF6-20A55F1AE474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED11A119-A18E-4D7B-9DF6-20A55F1AE474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206E3A84-0B11-43BB-A533-420D010C845A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206E3A84-0B11-43BB-A533-420D010C845A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206E3A84-0B11-43BB-A533-420D010C845A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206E3A84-0B11-43BB-A533-420D010C845A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
